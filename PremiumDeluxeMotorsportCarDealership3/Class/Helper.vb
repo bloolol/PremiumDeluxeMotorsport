@@ -721,5 +721,19 @@ Public Module Helper
         Game.DisableControlThisFrame(0, keyDoor)
         Game.DisableControlThisFrame(0, keyRoof)
         Game.DisableControlThisFrame(0, keyZoom)
+
+
+        Game.DisableControlThisFrame(0, GTA.Control.Phone)
+        Game.DisableControlThisFrame(0, GTA.Control.PhoneUp)
+        Game.DisableControlThisFrame(0, GTA.Control.PhoneDown)
+        Game.DisableControlThisFrame(0, GTA.Control.PhoneLeft)
+        Game.DisableControlThisFrame(0, GTA.Control.PhoneRight)
+        Game.DisableControlThisFrame(0, GTA.Control.PhoneSelect)
+        Game.DisableControlThisFrame(0, GTA.Control.PhoneCancel)
+        Game.DisableControlThisFrame(0, GTA.Control.PhoneOption)
+        Game.DisableControlThisFrame(0, GTA.Control.PhoneExtraOption)
+        Game.DisableControlThisFrame(0, GTA.Control.PhoneScrollForward)
+        Game.DisableControlThisFrame(0, GTA.Control.PhoneScrollBackward)
     End Sub
+
 End Module
